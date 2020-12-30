@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Personal Details">
+  <meta name="keywords" content="HTML,CSS">
+  <meta name="author" content="Brandtner Freddy">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Education</title>
+
+<style>
+
+h2 {
+	color:powderblue; 
+	text-shadow: 1px 1px 2px black, 0 0 25px darkblue, 0 0 5px white;
+	font-family:Roboto;
+	text-align:center;  
+	font-size:30px;
+}
+ul {
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	overflow:hidden;
+	background-color:#53524E;
+}
+li {
+	float:left;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover:not(.active){
+	background-color:lightgrey;
+}
+.active {
+	background-color:powderblue;
+}
+
+.column {
+	float:left;
+	width:50px;
+	padding:15px;
+}
+
+table {
+	font-family:lucida fax; 
+	font-size:14px;
+	background-color:azure; 
+	border: 1px solid teal;
+	border-collapse:collapse;
+	border-spacing: 5px;
+}
+
+th {
+	border: 1px solid teal; 
+	border-collapse:collapse; 
+	padding: 15px; 
+	text-align: left;
+	background-color:powderblue;
+}
+
+td {
+	border: 1px solid teal; 
+	border-collapse:collapse; 
+	padding: 15px;
+}
+
+footer {
+	background-color:#53524E;
+	padding:5px;
+	text-align:center;
+	
+}
+
+@media(max-width:600px){
+	section {
+	-webkit-flex:column;
+	flex-direction:column;
+	}
+}
+</style>
+</head>
+<body style="background:url(background-marble.jpg)">
+<nav>
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="biodata.html">Biodata</a></li>
+			<li><a href="resume.html">Resume</a></li>
+			<li><a href="#">Education</a></li>
+			<li><a href="contact.html">Contact</a></li>
+			<li style="float:right"><a class="active" href="aboutme.html">About Me</a></li>
+		</ul>
+</nav>
+
+<h2>EDUCATION BACKGROUND</h2>
+
+<p style ="text-align:center;"><img src="header.png" alt="brandtner" width="60%" >
+
+<table align="center">
+	<tr>
+		<th><b>SK Tabuan Jaya (2005 - 2011)</b></th>
+		<td>School Representative for Choral Speaking, Achieved 3A's in UPSR</td>
+	</tr>
+	<tr>
+		<th><b>SMK DPHA Gapor (2011 - 2015)</b></th>
+		<td>Deputy Head Prefect (Form 2 & Form 4-5), School Representative for Choral Speaking, Achieved 5A's in SPM</td>
+	</tr>
+	<tr>
+		<th><b>Universiti Teknologi Mara (June 2016 - January 2019)</b></th>
+		<td>Graduated with CGPA 3.00 in Diploma in Accountancy</td>
+	</tr>
+	<tr>
+		<th><b>Universiti Teknologi Mara (September 2019 - Present)</b></th>
+		<td>Dean's List in Semester 1 & 2 with CGPA of 3.63</td>
+	</tr>
+</table>
+<br><br>
+<hr>
+
+<footer>
+	<p style ="color: white; text-align:center;font-family:Roboto; font-size:18px;">&copy;Copyright by Brandtner anak Freddy</p>
+	<p style ="color: white; text-align:center;font-family:Roboto; font-size:14px;">Last updated on 28th December 2020</p>
+	<p style ="color: white; text-align:center;font-family:Roboto; font-size:14px;">Recommended Google Chrome resolution: 1366x768</p>
+</footer>
+
+</body>
+</html>

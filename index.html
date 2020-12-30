@@ -1,0 +1,101 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="About">
+  <meta name="keywords" content="HTML,CSS">
+  <meta name="author" content="Brandtner Freddy">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Brandtner Freddy</title>
+
+<style>
+h1 {
+  color: powderblue;
+  text-shadow: 1px 1px 2px black, 0 0 25px darkblue, 0 0 5px white;
+}
+*{
+	box-sizing:border-box;
+}
+body {
+	font-family: Roboto, georgia, san-serif;
+}
+header {
+	padding:20px;
+	text-align:center;
+	font-size: 20px;
+	color:powderblue;
+}
+ul {
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	overflow:hidden;
+	background-color:#53524E;
+}
+
+li {
+	float:left;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover:not(.active){
+	background-color:lightgrey;
+}
+.active {
+	background-color:powderblue;
+}
+
+.column {
+	float:left;
+	width:50px;
+	padding:15px;
+}
+
+footer {
+	background-color:#53524E;
+	padding:5px;
+	text-align:center;
+	color: white;
+}
+
+@media(max-width:600px){
+	section {
+	-webkit-flex:column;
+	flex-direction:column;}
+}
+</style>
+</head>
+<body style="background:url(background-marble.jpg)">
+<nav>
+		<ul>
+			<li><a href="#">Home</a></li>
+			<li><a href="biodata.html">Biodata</a></li>
+			<li><a href="resume.html">Resume</a></li>
+			<li><a href="education.html">Education</a></li>			
+			<li><a href="contact.html">Contact</a></li>
+			<li style="float:right"><a class="active" href="aboutme.html">About Me</a></li>
+		</ul>
+</nav>
+<header>
+	<h1>MY RESUME</h1>
+</header>
+<p style="text-align:center;"><img src="header.png" alt="header" width="60%" height="100%"></p>
+<br><br>
+	<h2 style="color:powderblue;text-align:center;font-size:20px;">ABOUT ME</h2>
+	<p style="color:white;text-align:center;font-size:20px;">I am an under-graduate studying Bachelor in Business Administration (Hons.) Finance. 
+I also have a diploma in accounting and graduated with 3.00 CGPA. The purpose of this resume is to seek a job in an organization which can fully utilise my skills, knowledge
+and management in financing to help them achieve their goals and objectives.</p>
+<br><br>
+<hr>
+<footer> 
+	<p style="color:white;text-align:center;font-size:16px;">&copy;Copyright by Brandtner Freddy</p>
+	<p style ="color: white; text-align:center;font-family:Roboto; font-size:14px;">Last updated on 28th December 2020</p>
+	<p style ="color: white; text-align:center;font-family:Roboto; font-size:14px;">Recommended Google Chrome resolution: 1366x768</p>
+</footer>
+</body>
+</html>

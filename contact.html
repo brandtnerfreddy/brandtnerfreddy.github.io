@@ -1,0 +1,129 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Contact Information">
+  <meta name="keywords" content="HTML,CSS">
+  <meta name="author" content="Brandtner Freddy">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact</title>
+<style>
+
+h2 {
+	color:powderblue; 
+	text-shadow: 1px 1px 2px black, 0 0 25px darkblue, 0 0 5px white;
+	font-family:Roboto;
+	text-align:center;  
+	font-size:30px;
+}
+ul {
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	overflow:hidden;
+	background-color:#53524E;
+}
+li {
+	float:left;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover:not(.active){
+	background-color:lightgrey;
+}
+.active {
+	background-color:powderblue;
+}
+
+table {
+	font-family:lucida fax; 
+	font-size:14px;
+	background-color:azure; 
+	border: 1px solid teal;
+	border-collapse:collapse;
+	border-spacing: 5px;
+}
+
+th {
+	border: 1px solid teal; 
+	border-collapse:collapse; 
+	padding: 15px; 
+	text-align: left;
+	background-color:powderblue;
+}
+
+td {
+	border: 1px solid teal; 
+	border-collapse:collapse; 
+	padding: 15px;
+}
+
+footer {
+	background-color:#53524E;
+	padding:5px;
+	text-align:center;
+	Color:white;
+}
+
+@media(max-width:600px){
+	section {
+	-webkit-flex:column;
+	flex-direction:column;
+	}
+}
+</style>
+</head>
+<body style="background:url(background-marble.jpg)">
+<nav>
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="biodata.html">Biodata</a></li>
+			<li><a href="resume.html">Resume</a></li>
+			<li><a href="education.html">Education</a></li>
+			<li><a href="#">Contact</a></li>
+			<li style="float:right"><a class="active" href="aboutme.html">About Me</a></li>
+		</ul>
+</nav>
+<h2>CONTACT INFORMATION</h2>
+
+<table align="center">
+	<tr>
+		<th rowspan="2">Telephone:</th>
+		<td>014-3914821 (Mobile)</td>
+	<tr>
+		<td>082-619305 (Home)</td>
+	<tr>
+		<th>House Address:</th>
+		<td>Lot 1711, Lorong 10, Kampung Temedak, Jalan Sungai Tapang, 93250 Kuching Sarawak.</td>
+	</tr>
+	<tr>
+		<th>Email:</th>
+		<td>brandtnerfreddy7@gmail.com</td>
+	</tr>
+	<tr>
+		<th rowspan="3">Social Media:</th>
+		<td><a href="https://www.facebook.com/bradbredbret"><img src ="facebook.jpg" alt="facebook" style = "width:60px; height:60px;"></a></td>
+	</tr>
+	<tr>
+		<td><a href="https://twitter.com/bradfhc_"><img src="twitter.jpg" alt="twitter" style = "width:75px; height:75px;"></a></td>
+	</tr>
+	<tr>
+		<td><a href="https://www.instagram.com/_brandtner/"><img src="instagram.jpg" alt="instagram" style = "width:75px; height:75px;"></a></td>
+	</tr>
+</table>
+<br><br>
+<hr>
+
+<footer>
+	<p style ="color:white; text-align:center;font-family:georgia; font-size:18px;">&copy;Copyright by Brandtner anak Freddy</p>
+	<p style ="color: white; text-align:center;font-family:Roboto; font-size:14px;">Last updated on 28th December 2020</p>
+	<p style ="color: white; text-align:center;font-family:Roboto; font-size:14px;">Recommended Google Chrome resolution: 1366x768</p>
+</footer>
+
+</body>
+</html>
